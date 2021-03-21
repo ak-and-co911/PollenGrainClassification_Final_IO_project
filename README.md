@@ -7,6 +7,7 @@ The dataset has a total of 790 pollen grain images (.jpg files) containing 23 cl
 [kaggle data set link](https://www.kaggle.com/andrewmvd/pollen-grain-image-classification)
 
 ![image](https://user-images.githubusercontent.com/79707690/111902840-5659fc80-8a65-11eb-96ad-3efa75d7bd7d.png)
+
 (Images of the different pollen grain classes in this dataset)
 
 **The original article for the dataset:**
@@ -20,7 +21,7 @@ This is a deep learning model which solves a classification problem with respect
 
 ## Model architecture:
 
-Pretrained InceptionV3 + Dense layer/hidden layer (500) Dense layer/hidden layer (150) Output layer 
+Pretrained InceptionV3 + -->Dense layer/hidden layer (500)--> Dense layer/hidden layer (150)--> Output layer 
 [Link to the training colab notebook]( https://colab.research.google.com/drive/1e8LidrWrF7aGUCf7pUDzSbYnnQ4_83L1?usp=sharing) 
 The python file contains the code to run the trained model
 
