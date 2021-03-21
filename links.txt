@@ -1,0 +1,7 @@
+link to download the dataset:
+
+https://www.kaggle.com/andrewmvd/pollen-grain-image-classification/download
+
+link to download the model:
+
+https://drive.google.com/file/d/1yR-MdsDbK3J4nFpBXnjSkdnCsrZmzBJC/view?usp=sharing
