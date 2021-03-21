@@ -52,6 +52,7 @@ for i, key in enumerate(path_class.keys()):
     ax = fig.add_subplot(8, 9,  3*i + 3, xticks=[], yticks=[])
     ax.imshow(img3)
     ax.set_title(key)
+plt.show()
 
 #choose a class for classifying
 list_of_pollens=['anadenanthera', 'urochloa', 'arrabidaea', 'cecropia',
@@ -87,7 +88,6 @@ Y_cat = to_categorical(Y_le, 23)
 from sklearn.model_selection import train_test_split
 X_train, X_test, Y_train, Y_test = train_test_split(X,Y_cat, test_size=0.285, stratify=Y_le)
 print("Images in each class in Test set: {}".format(np.sum(Y_test, axis =0)))
-
 
 
 
