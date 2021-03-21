@@ -20,7 +20,7 @@ https://doi.org/10.1371/journal.pone.0157044
 
 ## The model:
 This is a deep learning model which solves a classification problem with respect to the above dataset. Steps involved in making the model: Data Exploration, Pre-processing, Data Augmentation,  Training (with Early Stopping), Predication
-**Modules used : tensorflow, matplotlib, numpy , Pillow, scikit-learn, cv2, os and collections.**
+**Modules used : tensorflow, matplotlib, numpy , Pillow, scikit-learn, cv2, collections, os and random.**
 
 ## Model architecture:
 
