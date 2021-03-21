@@ -122,7 +122,7 @@ img_test.show()
 l=list(path_class.keys())
 print(path_class.keys())
 
-img_in = cv2.imread(path_class[random_species][0])
+img_in = cv2.imread(path_class[random_species][random_jpg])
 img_in = cv2.resize(img_in, (128,128))/255
 
 print(img_in.shape)
