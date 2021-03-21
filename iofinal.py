@@ -18,7 +18,7 @@ classes = Counter(names)  #returns dictionary with key as name, count as value
 
 print("Total number of images is {}".format(len(names)))
 
-#histogram of entire dataset
+#bar graph of entire dataset
 plt.figure(figsize = (12,8))
 plt.title('Class Counts in Dataset')
 plt.bar(*zip(*classes.items())) 
