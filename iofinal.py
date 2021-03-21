@@ -28,10 +28,10 @@ plt.show()
 print(classes)
 
 path_class  = {key:[] for key in classes.keys()} #dict of class and path to come
-print(path_class) #comment this to stop printing the dataset image path
 for name in os.listdir(path):
     key = name.replace(' ', '_').split('_')[0] #assigning each key the path
     path_class[key].append(path + '/' + name) #adding the path into a list which is the value of all images of the species
+print(path_class) #comment this to stop printing the dataset image path
 
 
 #images in the dataset
