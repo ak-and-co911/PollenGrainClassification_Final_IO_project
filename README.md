@@ -33,4 +33,5 @@ Data augmentation with horizontal and vertical flipping
 
 ![image](https://user-images.githubusercontent.com/79707690/111903077-7807b380-8a66-11eb-9f7c-47e38ed26596.png)
 
-
+### Exception:
+There is an exception for the pollen grain pairs qualea-faramea,myrcia-arecaceae. The model predicts the first pollen grain type for both the types in the pair. Eg: for the first pair protium-schinus, when the input is qualea the model predicts qualea but when the input is faramea the model still predicts it as qualea.
