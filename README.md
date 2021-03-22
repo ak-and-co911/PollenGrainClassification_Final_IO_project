@@ -1,6 +1,6 @@
 # CNN Model to Classify Pollen Grains based on user input
 
-## ***Note: download the trained model and the dataset from the links in the .txt file and also download the modules given below (modules used) to run the python program in your PC. Don’t forget to change the file paths of the model and the dataset in the python code(refer the .txt file) =)***
+## ***Note: download the trained model and the dataset from the links in links_to_model&dataset.md file and also download the modules given below (modules used) to run the python program in your PC. Don’t forget to change the file paths of the model and the dataset in the python code(refer the links_to_model&dataset.md file) =)***
 
 ## Dataset:
 The dataset used for this project is Pollen Grain Image Classification Dataset from Kaggle. The classification of pollen species and types is an important task in many areas like forensic palynology, archaeological palynology and melissopalynology. This is the first annotated image dataset for the Brazilian Savannah pollen types that can be used to train and test computer vision based automatic pollen classifiers. 
@@ -26,7 +26,7 @@ This is a deep learning model which solves a classification problem with respect
 
 Pretrained InceptionV3 + -->Dense layer/hidden layer (500)--> Dense layer/hidden layer (150)--> Output layer 
 [Link to the training colab notebook]( https://colab.research.google.com/drive/1e8LidrWrF7aGUCf7pUDzSbYnnQ4_83L1?usp=sharing) 
-The python file contains the code to run the trained model
+The python file contains the code to run the trained model(iofinal.py)
 
 ## Approach used to increase accuracy:
 Data augmentation with horizontal and vertical flipping 
